@@ -10,7 +10,7 @@ THRESHOLD = 150
 if __name__ == "__main__":
 
     #open video
-    cap = cv2.VideoCapture(os.environ['HOME']+'/Thermal/20201006_183919/20201006_184013_H264_A.mov')
+    cap = cv2.VideoCapture(os.environ['HOME']+'/Thermal/20201006_183919/file:///home/matteo/Thermal/night_1/20201025_155119_H264_A.mov')
 
 
     i=0
