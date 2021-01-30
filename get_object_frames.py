@@ -28,7 +28,7 @@ if __name__ == "__main__":
 
     # Define the codec and create VideoWriter object
     print("open fourccc")
-    fourcc = cv2.VideoWriter_fourcc('M','J','P','G')
+    fourcc = cv2.VideoWriter_fourcc(*"MJPG")
     print("videowriter...")
     out = cv2.VideoWriter('./output.avi',fourcc, 20.0, (frame_width,frame_height),0)
 
